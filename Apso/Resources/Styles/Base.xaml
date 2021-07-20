@@ -1,0 +1,27 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <FontFamily x:Key="FontAwesome">/Resources/Fonts/Font Awesome 5 Free-Solid-900.otf#Font Awesome 5 Free Solid</FontFamily>
+
+    <SolidColorBrush x:Key="PrimaryColor" Color="#00afd3" />
+    <SolidColorBrush x:Key="LightPrimaryColor" Color="#221564bb" />
+    <SolidColorBrush x:Key="SecondaryColor" Color="LightGray" />
+
+    <Color x:Key="ErrorColor">#FFD64848</Color>
+    <Color x:Key="SuccessColor">#FF65C76E</Color>
+    <Color x:Key="InfoColor">#FF48A9D6</Color>
+    <Color x:Key="WarningColor">#FFF7DE3D</Color>
+
+    <SolidColorBrush x:Key="ErrorBrush" Color="{StaticResource ErrorColor}" />
+    <SolidColorBrush x:Key="SuccessBrush" Color="{StaticResource SuccessColor}" />
+    <SolidColorBrush x:Key="InfoBrush" Color="{StaticResource InfoColor}" />
+    <SolidColorBrush x:Key="WarningBrush" Color="{StaticResource WarningColor}" />
+
+
+    <SolidColorBrush x:Key="DisabledForegroundBrush" Color="Gray" />
+    <SolidColorBrush x:Key="DisabledBackgroundBrush" Color="LightGray" />
+    <SolidColorBrush x:Key="TextColor" Color="#ff343a40" />
+    <Color x:Key="BorderColor">#e2e5ec</Color>
+
+
+
+</ResourceDictionary>
